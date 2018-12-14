@@ -1,5 +1,5 @@
 {
-  "name": "karl-googlemap",
+  "name": "karl/googlemap",
   "description": "A Google Map module for magento2",
   "type": "magento2-module",
   "require": {
