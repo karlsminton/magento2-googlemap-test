@@ -1,0 +1,23 @@
+{
+  "name": "karl-googlemap",
+  "description": "A Google Map module for magento2",
+  "type": "magento2-module",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0",
+    "emcconville/polyline-encoder": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/emcconville/polyline-encoder.git"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Karl\\GoogleMap\\": ""
+    }
+  }
+}
